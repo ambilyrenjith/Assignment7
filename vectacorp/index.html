@@ -26,7 +26,10 @@
             $("p:contains('President')").append("<br>Chevy Dealers Association");
             
             var para = $("aside p:first").html();
-            $("aside p:first").html(para);
+            $("aside p:first").html('"'+para+'"');
+            $("aside p:first").css("font-style", "italic");
+            $("section  b").replace('<a href ="http://www.vectacorp.com"></a>');
+            
            
         }); 
     
